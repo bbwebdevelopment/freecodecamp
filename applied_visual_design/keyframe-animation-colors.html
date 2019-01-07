@@ -1,0 +1,33 @@
+<style>
+  div {
+    height: 40px;
+    width: 70%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 5px;
+  }
+
+  #rect {
+    /* naming keyframe */
+    animation-name: rainbow;
+    animation-duration: 4s;
+    
+  }
+  /* calling keyframe and setting stages */
+  @keyframes rainbow {
+    /* stages1, 2, 3 are changing colors at various percentages */
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+  
+  
+  
+</style>
+<div id="rect"></div>
